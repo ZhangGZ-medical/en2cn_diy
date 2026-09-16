@@ -1,11 +1,10 @@
 ---
 name: en2cn_diy
 description: >
-  将英文 DOCX 文档翻译为中文，完整保留原始格式与排版（字体、表格、三线表、加粗、
-  斜体、对齐等）。不依赖 OCR 或外部翻译 API，由 AI 直接提供译文，再通过 python-docx
-  以"克隆源文件XML结构 + 逐 run 替换文字"的方式生成目标文件。
-  触发词：翻译、translate、英译中、en2cn、DOCX翻译、英文文档翻译、保留格式翻译、
-  翻译并保持格式、translate docx、英文转中文、将英文翻译为中文
+  将英文 DOCX 文档翻译为中文，完整保留原始格式与排版（字体、表格、三线表、加粗、 斜体、对齐等）。不依赖 OCR 或外部翻译 API，由 AI
+  直接提供译文，再通过 python-docx 以"克隆源文件XML结构 + 逐 run 替换文字"的方式生成目标文件。
+  触发词：翻译、translate、英译中、en2cn、DOCX翻译、英文文档翻译、保留格式翻译、 翻译并保持格式、translate
+  docx、英文转中文、将英文翻译为中文
 version: 1.0.0
 base_dir: C:\Users\G1381\.workbuddy\skills\en2cn_diy
 ---
